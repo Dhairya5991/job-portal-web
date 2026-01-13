@@ -72,10 +72,32 @@ Frontend (React + Tailwind + Nginx)
 
 job-portal-capstone/
 ├── frontend/
+│   ├── Dockerfile
+│   ├── nginx.conf
+│   ├── index.html
+│   ├── package.json
+│   └── src/
+│       ├── api/
+│       ├── components/
+│       ├── pages/
+│       │   ├── user/
+│       │   └── admin/
+│
 ├── backend/
-├── docker-compose.yml
+│   ├── Dockerfile
+│   ├── package.json
+│   └── src/
+│       ├── controllers/
+│       ├── middleware/
+│       ├── models/
+│       ├── routes/
+│       └── server.js
+│
 ├── scripts/
-├── .github/
+│   └── mongo-backup.sh
+│
+├── docker-compose.yml
+├── .env
 └── README.md
 
 ---
